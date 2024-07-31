@@ -1,0 +1,48 @@
+/* Styling the form */
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/premium-photo/organic-abstract-gradient-wallpaper-background-header-illustration_692702-9499.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+  
+}
+  
+  /* Styling the form inputs */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* To include padding and border in element's total width and height */
+  }
+  
+  /* Styling the submit button */
+  form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling the submit button on hover */
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  
